@@ -1,0 +1,373 @@
+* {
+     box-sizing: border-box;
+}
+body {
+     margin: 0;
+     font-family: sans-serif;
+     background-color: #E5E5E5;
+}
+img {
+     max-width: 100%;
+     height: auto;
+}
+.container {
+     margin: 60px 100px;
+     border-radius: 20px;
+     background-color: white;
+     padding: 70px;
+}
+.toplink {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+}
+.menulink {
+     display: inline-block;
+     text-decoration: none;
+     margin-right: 10px;
+     font-size: 20px;
+     transition: 0.2s all linear;
+}
+.son {
+     color: #ff6666;
+     transition: 0.2s all linear;
+}
+.yozuv {
+     color: #336699;
+     transition: 0.2s all linear;
+}
+
+.menulink:hover .son{
+     color: #336699;
+}
+.menulink:hover .yozuv{
+     color: #ff6666;
+}
+.center1 {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     column-gap: 100px;
+     line-height: 1.3;
+     margin: 130px 0;
+}
+.twolink {
+     margin-top: 50px;
+}
+.work {
+     display: inline-block;
+     text-decoration: none;
+     color: white;
+     background-color: #336699;
+     padding: 7px 20px;
+     border-radius: 5px;
+     transition: 0.2s all linear;
+}
+.talk {
+     display: inline-block;
+     text-decoration: none;
+     color: black;
+     background-color: #FF6666;
+     padding: 7px 20px;
+     border-radius: 5px;
+     margin-left: 10px;
+     transition: 0.2s all linear;
+}
+.talk:hover {
+     background-color: black;
+     color: white;
+     box-shadow: 0 0 10px black;
+}
+.work:hover {
+     background-color: black;
+     box-shadow: 0 0 10px black;
+}
+.boxes {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 50px;
+}
+.box {
+     width: 31%;
+     line-height: 1.4;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.job {
+     font-size: 27px;
+}
+.need {
+     color: #6E6D7A;
+     
+}
+.third {
+     margin-top: 100px;
+}
+.companies {
+     margin-top: 40px;
+}
+.imgg {
+     cursor: pointer;
+     margin-right: 25px;
+     margin-bottom: 15px;
+}
+.fourth {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-top: 100px;
+}
+.left_chap {
+     width: 50%;
+     line-height: 1.3;
+}
+.right_ong {
+     font-size: 24px;
+     line-height: 1.3;
+}
+.tepa {
+     margin-bottom: 70px;
+}
+.linkofdesign {
+     display: inline-block;
+     color: red;
+     text-decoration: none;
+}
+
+.fifth {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 120px;
+     line-height: 1.5;
+}
+.weblink {
+     display: inline-block;
+     text-decoration: none;
+     margin-right: 10px;
+}
+.chapp, .ongg {
+     width: 46%;
+}
+.textarea {
+     resize: none;
+     width: 100%;
+     height: 100px;
+     padding: 10px;
+}
+.form {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-end;
+}
+.input {
+     width: 100%;
+     margin-bottom: 20px;
+     height: 50px;
+     padding: 10px;
+     border-radius: 5px;
+}
+.rightt {
+     text-align: right;
+}
+.btn {
+     display: inline-block;
+     border-radius: 3px;
+     border: none;
+     background-color: #FF6666;
+     color: black;
+     font-weight: bold;
+     padding: 10px 15px;
+     margin-top: 30px;
+     cursor: pointer;
+}
+
+.last {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 150px;
+     background-color: #F9F9F9;
+}
+.flex {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+.flexbox {
+     margin-left: 20px;
+}
+.width {
+     width: 200px;
+     color: #777682;
+}
+@media(max-width:1400px){
+     .container {
+          padding: 40px;
+          margin: 40px 60px;
+     }
+}
+@media(max-width:1100px){
+     .box {
+          width: 48%;
+          text-align: center;
+     }
+     .box:last-child {
+          margin-top: 40px;   
+     }
+     .box:first-child {
+          margin-right: 30px;
+     }
+     .boxes {
+          justify-content: center;
+     }
+     .do {
+          text-align: center;
+     }
+     .container {
+          margin: 50px;
+          padding: 30px;
+     }
+}
+@media(max-width:1080px){
+     .right {
+          width: 100%;
+          text-align: center;
+     }
+     .man {
+          margin-bottom: 30px;
+     }
+}
+@media(max-width:1000px){
+     .fourth {
+          /* justify-content: center; */
+     }
+     .left_chap {
+          width: 100%;
+     }
+}
+@media(max-width:910px){
+     .box {
+          width: 100%;
+     }
+}
+@media(max-width:800px){
+     .logo {
+          width: 100%;
+          margin-bottom: 20px;
+     }
+     .toplink {
+          text-align: center;
+          justify-content: center;
+     }
+     .menulink {
+          margin: 0 10px;
+     }
+     .container {
+          padding: 20px;
+          margin: 40px;
+     }
+     .tepa {
+          margin-bottom: 20px;
+     }
+     .right_ong {
+          font-size: 17px;
+     }
+     .chapp {
+          width: 100%;
+     }
+     .fifth {
+          justify-content: center;
+          text-align: center;
+     }
+     .input {
+          width: 100%;
+     }
+     .form {
+          margin-top: 20px;
+     }
+     .rightt {
+          text-align: center;
+     }
+     .ongg {
+          width: 100%;
+     }
+}
+@media(max-width:670px){
+     .menulink {
+          width: 40%;
+          margin: 10px 0;
+     }
+     .center1 {
+          margin: 20px 0;
+     }
+}
+@media(max-width:650px){
+     .last {
+          justify-content: center;
+          font-size: 15px;
+          margin-top: 50px;
+          padding: 10px;
+     }
+     .leeft {
+          width: 100%;
+     }
+     .width {
+          width: 100%;
+          
+     }
+     .lastlogo {
+          width: 50px;
+          margin-right: 10px;
+     }
+     .flexbox {
+          margin: 0;
+     }
+}
+@media(max-width:500px){
+     .menulink {
+          width: 100%;
+     }
+     .man {
+          width: 170px;
+     }
+     .h2 {
+          margin: 0;
+     }
+}
+@media(max-width:380px){
+     .work {
+          width: 100%;
+          margin: 10px 0;
+     }
+     .talk {
+          width: 100%;
+          margin: 0;
+     }
+     .name {
+          font-size: 25px;
+          margin: 0;
+     }
+     .kasbi {
+          font-size: 24px;
+          margin: 0;
+          margin-bottom: 10px;
+     }
+     .container {
+          margin: 10px;
+     }
+}
+@media(max-width:350px){
+     .last {
+          text-align: center;
+     }
+     .p {
+          margin: 10px 0;
+     }
+     .flex {
+          justify-content: center;
+     }
+}
